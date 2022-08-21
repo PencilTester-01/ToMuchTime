@@ -1,6 +1,6 @@
 # SSH Proxy
 
-![drawio.png](../_resources/drawio.png)
+![drawio.png](/_resources/drawio.png)
 
 ### Introduction
 
