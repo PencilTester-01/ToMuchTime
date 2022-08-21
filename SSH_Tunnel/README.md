@@ -19,7 +19,7 @@ MyMachine -----> Ubuntu
 - SSH Tunnel	(Endevour OS) You can run any Linux Distro
 - DVWA  Easy setup and I planned on attacking it later
 
-![enviroment](../_resources/The Envir.png)
+![enviroment](./_resources/The Envir.png)
 
 I worked super hard on these drawings, and even though I think the enviroment pic helps put everything into a concise view. I wanted to convey how the traffic is working check out the super complex diagram below
 
@@ -32,11 +32,11 @@ For this project we need to simulate isolatation from yourmachine --> target, ea
 - Launch Virtual Box 
 - Click on Tools --> Little Wrench (display global settings)
 
-![c7bd462abf3cd25da5d94afd7c8831d0.png](../_resources/c7bd462abf3cd25da5d94afd7c8831d0.png)
+![c7bd462abf3cd25da5d94afd7c8831d0.png](./_resources/c7bd462abf3cd25da5d94afd7c8831d0.png)
 
 The Window below should appear
 
-![03dac6b8ef7f6651f68aa124bf240ff5.png](../_resources/03dac6b8ef7f6651f68aa124bf240ff5.png)
+![03dac6b8ef7f6651f68aa124bf240ff5.png](./_resources/03dac6b8ef7f6651f68aa124bf240ff5.png)
 
 Here you need a create a Nat Network,for your DVWA Machine, simulates isolation, in my case I created the PingPing NetWork
 
@@ -45,7 +45,7 @@ Here you need a create a Nat Network,for your DVWA Machine, simulates isolation,
 Whatever OS you are running make you have an SSH Installed
 The quickest way to test is run `ssh`, in a terminal
 
-![9604606d004f92fe3944f45e7a61c5da.png](../_resources/9604606d004f92fe3944f45e7a61c5da.png)
+![9604606d004f92fe3944f45e7a61c5da.png](./_resources/9604606d004f92fe3944f45e7a61c5da.png)
 
 ###  Setting Up  the SSH Tunnel
 * * *
@@ -78,7 +78,7 @@ First Adapter is set to Bridged Adapter, Second is NAT Network-Ping Ping
 
 This ensures your SSH Proxy can talk to your host machine and your target machine
 
-![e83ad5b24702e5ec1a606bb48276bf68.png](../_resources/e83ad5b24702e5ec1a606bb48276bf68.png)
+![e83ad5b24702e5ec1a606bb48276bf68.png](./_resources/e83ad5b24702e5ec1a606bb48276bf68.png)
 
 # Setting up DVWA 
 
@@ -89,7 +89,7 @@ I downloaded the ISO from Vulnhub [Link](https://www.vulnhub.com/entry/damn-vuln
 
 Use the below image as reference
 
-![b20c2fb0a09608bc6791f932c8a9b654.png](../_resources/b20c2fb0a09608bc6791f932c8a9b654.png)
+![b20c2fb0a09608bc6791f932c8a9b654.png](./_resources/b20c2fb0a09608bc6791f932c8a9b654.png)
 
 - Click Create -> Create
 
@@ -99,7 +99,7 @@ Use the below image as reference
 
 Configure the network settings as seen in the Image
 
-![56cbaff72d16459e9e863211c39bfdcb.png](../_resources/56cbaff72d16459e9e863211c39bfdcb.png)
+![56cbaff72d16459e9e863211c39bfdcb.png](./_resources/56cbaff72d16459e9e863211c39bfdcb.png)
 
 - Click Ok
 
@@ -121,7 +121,7 @@ SSH tunneling, or SSH port forwarding, is a method of transporting arbitrary dat
 [Link to Defeniton](https://www.concordia.ca/ginacody/aits/support/faq/ssh-tunnel.html)
 
 
-![command.png](../_resources/command.png)
+![command.png](./_resources/command.png)
 
 
 Open a terminal on your machine and run the following. Remeber to adjust the ip addresses in the command to match your eniviroment 
@@ -135,6 +135,6 @@ Open your broswer
 
 Go to localhost:8080
 
-![e650ec2a44bb19c549e8d493d1ae3d93.png](../_resources/e650ec2a44bb19c549e8d493d1ae3d93.png)
+![e650ec2a44bb19c549e8d493d1ae3d93.png](./_resources/e650ec2a44bb19c549e8d493d1ae3d93.png)
 
 TADA! You can now access the DVWA webpage 
