@@ -19,7 +19,7 @@ MyMachine -----> Ubuntu
 - SSH Tunnel	(Endevour OS) You can run any Linux Distro
 - DVWA  Easy setup and I planned on attacking it later
 
-![enviroment](./_resources/The Envir.png)
+![enviroment.png](./_resources/The Envir.png)
 
 I worked super hard on these drawings, and even though I think the enviroment pic helps put everything into a concise view. I wanted to convey how the traffic is working check out the super complex diagram below
 
